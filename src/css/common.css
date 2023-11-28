@@ -25,3 +25,16 @@ img {
   gap: 15px;
   justify-content: center;
 }
+.timer {
+  margin-top: 10px;
+  padding: 50px;
+
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  font-size: 30px;
+
+  background-color: black;
+  color: white;
+}
