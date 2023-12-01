@@ -1,2 +1,0 @@
-document.querySelector(".form").addEventListener("submit",(function(e){e.preventDefault();var t=0,n=Number(e.target[0].value),r=Number(e.target[1].value),o=Number(e.target[2].value),u=setInterval((function(){var e;(e=n,new Promise((function(n,r){t+=1;var a=Math.random()>.3;setTimeout((function(){a&&n("✅ Fulfilled promise"),r("❌ Rejected promise")}),e),t===o&&clearInterval(u)}))).then((function(e){console.log(e)})).catch((function(e){console.log(e)}))}),r)}));
-//# sourceMappingURL=03-promises.3bc6c10d.js.map
